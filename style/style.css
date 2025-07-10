@@ -4,3 +4,33 @@
 
     font-style: normal;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin:0 150px 0 150px;
+    align-items: center;
+}
+
+.btn-primary {
+    padding: 12px 36px;
+    background-color: rgba(78, 71, 255, 1);
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.nav-tittle{
+         align-items: center;
+         font-size: 36px;
+         font-weight:bolder;
+         color:rgba(78, 71, 255, 1);
+}
+.banner{
+   height:152px;
+   width: 905px;
+   margin: 200px 300px 0 330px;
+   text-align: center;
+}
+header{
+    background-image: url(../Assets/Hero-bg.png);
+}
