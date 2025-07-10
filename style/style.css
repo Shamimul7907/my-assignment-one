@@ -1,14 +1,14 @@
 .plus-jakarta-sans {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
-
+     background-image:linear-gradient(#00ADFE,);
     font-style: normal;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin:0 150px 0 150px;
+    margin: 0 150px 0 150px;
     align-items: center;
 }
 
@@ -19,18 +19,136 @@ nav {
     color: aliceblue;
 }
 
-.nav-tittle{
-         align-items: center;
-         font-size: 36px;
-         font-weight:bolder;
-         color:rgba(78, 71, 255, 1);
+.nav-tittle {
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: rgba(78, 71, 255, 1);
 }
-.banner{
-   height:152px;
-   width: 905px;
-   margin: 200px 300px 0 330px;
-   text-align: center;
+
+.banner {
+    height: 120px;
+    width: 905px;
+    align-items: center;
+    margin: 150px auto 120px auto;
+    padding: 120px 120px 100px 120px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
-header{
+
+header {
     background-image: url(../Assets/Hero-bg.png);
+    height: 700px;
+
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+
+    align-items: center;
+}
+
+.action-tittle {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-description {
+    color: rgba(37, 36, 50, 0.5);
+
+}
+
+.action-img {
+    border-radius: 200px;
+}
+
+main img {
+    border-radius: 30px;
+    width: 400px;
+    height: 328px;
+}
+
+main strong {
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgba(78, 71, 255, 1);
+}
+
+/* .production */
+.production {
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 50px 200px;
+    border-radius: 25px;
+    padding: 50px 142px;
+}
+
+.production-tittle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.production-items {
+    display: flex;
+    gap: 170px;
+}
+
+.production-users- {
+    color: rgba(37, 36, 50, 0.5);
+
+}
+
+/* .feedback-card */
+.feedback-card {
+    display: flex;
+    margin: 50px 200px;
+    gap: 30px;
+}
+
+.feedback-tittle {
+    text-align: center;
+    margin: 50px 0 30px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.feedback-container {
+    height: 250px;
+    width: 330px;
+    padding: 24px 24px;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    
+
+}
+
+.icon-star {
+    width: 20px;
+    height: 20px;
+   
+}
+.avater-star{
+width: 50px;
+    height: 51px;
+    
+    
+}
+.flex-time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.flex-time span{
+display: block;
+}
+.feedback-container span{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 10px;
+}
+.feedback-container h4{
+    color: cadetblue;
+    font-size: 15px;
 }
