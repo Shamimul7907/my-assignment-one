@@ -1,7 +1,7 @@
 .plus-jakarta-sans {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
-     background-image:linear-gradient(#00ADFE,);
+     background-image:linear-gradient(#FFFFFF,#EBDCFF);
     font-style: normal;
 }
 
@@ -151,4 +151,35 @@ display: block;
 .feedback-container h4{
     color: cadetblue;
     font-size: 15px;
+}
+.connect{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    align-items: center;
+}
+.connect-tittle{
+    width: 528px;
+    height: 232px;
+    font-size: 97px;
+    font-weight: bold;
+}
+.connect-form input[type="text"], input[type="email"],textarea{
+    height:50px;
+    width: 497px;
+    border-radius: 5px;
+    background-color: rgb(246, 248, 250);
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    margin-top:10px;
+    display:block;
+    border:2px;
+    font-size: 16px;
+}
+.btn-primary-2{
+    padding: 12px 13px;
+    background-color: rgba(78, 71, 255, 1);
+    border-radius: 10px;
+    color: aliceblue;
+    width:540px;
 }
