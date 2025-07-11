@@ -4,7 +4,10 @@
      background-image:linear-gradient(#FFFFFF,#EBDCFF);
     font-style: normal;
 }
-
+header span{
+    color: brown;
+    font-style: oblique;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -182,4 +185,40 @@ display: block;
     border-radius: 10px;
     color: aliceblue;
     width:540px;
+}
+
+.nav-tittle-2{
+    align-items: center;
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgba(78, 71, 255, 1);
+    text-align: center; 
+    margin-top: 40px;
+}
+.nav-tittle-2 span{
+    color: brown;
+    font-style: oblique;
+}
+footer{
+    background-color: #FFFFFF;
+    
+    
+}
+.conclusion{
+    text-align: center;
+    color: rgba(37, 36, 50, 0.5);
+
+
+
+    
+}
+.conclusion ul li{
+    list-style: none;
+
+}
+.list{
+display: flex;   
+    gap: 24px;
+    margin: 10px 500px 10px 500px;
+color: rgba(37, 36, 50, 0.5);
 }
