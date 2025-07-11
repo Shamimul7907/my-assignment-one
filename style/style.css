@@ -186,7 +186,15 @@ display: block;
     color: aliceblue;
     width:540px;
 }
+.btn-primary:hover {
+    background-color: chocolate;
 
+}
+.btn-primary:active{
+    background-color:chocolate;
+    box-shadow: 2px 5px #666;
+    
+}
 .nav-tittle-2{
     align-items: center;
     font-size: 80px;
@@ -221,4 +229,13 @@ display: flex;
     gap: 24px;
     margin: 10px 500px 10px 500px;
 color: rgba(37, 36, 50, 0.5);
+}
+.btn-primary-2:hover {
+    background-color: chocolate;
+
+}
+.btn-primary-2:active{
+    background-color:chocolate;
+    box-shadow: 2px 5px #666;
+    
 }
