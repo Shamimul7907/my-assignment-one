@@ -13,6 +13,7 @@ nav {
     justify-content: space-between;
     margin: 0 150px 0 150px;
     align-items: center;
+    padding-top: 10px;
 }
 
 .btn-primary {
@@ -209,6 +210,7 @@ display: block;
 }
 footer{
     background-color: #FFFFFF;
+    padding: 50px 80px;
     
     
 }
